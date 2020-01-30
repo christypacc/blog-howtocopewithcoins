@@ -1,0 +1,52 @@
+
+iframe{
+    width: 510px;
+    height: 280px;
+}
+
+.mailchimp_div{
+    padding: 20vw;
+    background:rgb(216, 211, 211)
+}
+#mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+@media (max-width: 1240px) {
+    iframe{
+        width: 450px;
+        height: 260px;
+    }
+}
+
+@media (max-width: 1100px) {
+    iframe{
+        width: 420px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 780px) {
+    iframe{
+        width: 400px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 490px) {
+    iframe{
+        width: 270px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 400px) {
+    iframe{
+        width: 230px;
+        height: 160px;
+    }
+}
